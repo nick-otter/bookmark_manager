@@ -22,6 +22,29 @@ You're going to build a bookmark manager.  A bookmark manager is a website to ma
 - Refactoring more complex apps
 - Creating user stories
 
+### User Story
+
+```
+As a user
+So that I can quickly go to web sites I regularly visit
+I would like to see a list of links on the homepage
+```
+```
+As a user
+So that I can save a web site
+I would like to add a link to the homepage
+```
+```
+As a user
+So that I can organise my links
+I would like to add tags when I add a link to the homepage
+```
+```
+As a user
+So that I can search for the link I want
+I would like to filter all my links on the homepage by their tags
+```
+
 ## Authors
 
 * [Nick Otter](nickotter.personal@gmail.com)

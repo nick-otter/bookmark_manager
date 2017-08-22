@@ -45,6 +45,16 @@ So that I can search for the link I want
 I would like to filter all my links on the homepage by their tags
 ```
 
+### CRUD Ledger
+
+|Ruby Command      | SQL Equivalent|
+|------------------|-------------:|
+| Class.create(column_name: 'Gary') |  INSERT INTO "table" (column_name) VALUES ( 'Gary');
+| Class.inspect | SELECT * FROM students;   |
+| Class.update(id: 1, column_name: 'Gary')  | UPDATE "students" SET NAME = 'Gary' WHERE ID = 1;
+| Class.destroy | DELETE FROM "students" WHERE ID = 1; |
+
+
 ## Authors
 
 * [Nick Otter](nickotter.personal@gmail.com)

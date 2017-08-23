@@ -10,8 +10,8 @@ SimpleCov.start
 
 ENV['RACK_ENV'] = 'test'
 
-# require File.join(File.dirname(__FILE__), '../app/bookmark_manager_web.rb')
-# Capybara.app = BookmarkManager
+require File.join(File.dirname(__FILE__), '../app/app.rb')
+Capybara.app = BookmarkManager
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

@@ -1,0 +1,81 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/nickotter/Desktop/Coding/Google_Drive/Projects/bookmark_manager_main/bookmark_manager_no/app/app.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/nickotter/Desktop/Coding/Google_Drive/Projects/bookmark_manager_main/bookmark_manager_no/app/models/link.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1
+      ],
+      "/Users/nickotter/Desktop/Coding/Google_Drive/Projects/bookmark_manager_main/bookmark_manager_no/spec/features/creating_links_feature_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/nickotter/Desktop/Coding/Google_Drive/Projects/bookmark_manager_main/bookmark_manager_no/spec/features/viewing_links_feature_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1503571931
+  }
+}

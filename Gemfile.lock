@@ -27,6 +27,7 @@ GEM
       dm-validations (~> 1.2.0)
     data_objects (0.10.17)
       addressable (~> 2.1)
+    database_cleaner (1.6.1)
     diff-lcs (1.3)
     dm-aggregates (1.2.0)
       dm-core (~> 1.2.0)
@@ -74,6 +75,7 @@ GEM
     mini_mime (0.1.4)
     mini_portile2 (2.2.0)
     multi_json (1.12.1)
+    mustermann (1.0.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     parallel (1.12.0)
@@ -82,6 +84,8 @@ GEM
     powerpack (0.1.1)
     public_suffix (2.0.5)
     rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
     rainbow (2.2.2)
@@ -117,7 +121,13 @@ GEM
       hirb
       simplecov
     simplecov-html (0.10.0)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
     stringex (1.5.1)
+    tilt (2.0.8)
     unicode-display_width (1.2.1)
     uuidtools (2.1.5)
     xpath (2.1.0)
@@ -129,15 +139,18 @@ PLATFORMS
 DEPENDENCIES
   capybara
   data_mapper
+  database_cleaner
   dm-postgres-adapter
   launchy
+  rake
   rspec
   rubocop
   simplecov
   simplecov-console
+  sinatra
 
 RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.15.3
+   1.15.4

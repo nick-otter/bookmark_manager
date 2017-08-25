@@ -4,13 +4,23 @@ require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
 require 'database_cleaner'
+require 'data_mapper'
 
+
+#DataMapper print report
+DataMapper::Logger.new(STDOUT, :debug, '[DataMapper] ')
+DataMapper::Model.raise_on_save_failure = true
+
+
+# SimpleCov enable report
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
   SimpleCov::Formatter::HTMLFormatter
-])
+  ])
 SimpleCov.start
 
+
+# Capybara init
 require File.join(File.dirname(__FILE__), '../app/app.rb')
 Capybara.app = BookmarkManager
 
